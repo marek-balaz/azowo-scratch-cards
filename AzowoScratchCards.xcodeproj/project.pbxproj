@@ -9,13 +9,63 @@
 /* Begin PBXBuildFile section */
 		BC202DE42A6D1F9700DD2D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202DE32A6D1F9700DD2D4A /* AppDelegate.swift */; };
 		BC202DE62A6D1F9700DD2D4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202DE52A6D1F9700DD2D4A /* SceneDelegate.swift */; };
-		BC202DE82A6D1F9700DD2D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202DE72A6D1F9700DD2D4A /* ViewController.swift */; };
-		BC202DEB2A6D1F9700DD2D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC202DE92A6D1F9700DD2D4A /* Main.storyboard */; };
-		BC202DED2A6D1F9800DD2D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC202DEC2A6D1F9800DD2D4A /* Assets.xcassets */; };
 		BC202DF02A6D1F9800DD2D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC202DEE2A6D1F9800DD2D4A /* LaunchScreen.storyboard */; };
-		BC202DFB2A6D1F9800DD2D4A /* AzowoScratchCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202DFA2A6D1F9800DD2D4A /* AzowoScratchCardsTests.swift */; };
 		BC202E052A6D1F9800DD2D4A /* AzowoScratchCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E042A6D1F9800DD2D4A /* AzowoScratchCardsUITests.swift */; };
 		BC202E072A6D1F9800DD2D4A /* AzowoScratchCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E062A6D1F9800DD2D4A /* AzowoScratchCardsUITestsLaunchTests.swift */; };
+		BC202E172A6D1FDE00DD2D4A /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E142A6D1FDE00DD2D4A /* ViewModelType.swift */; };
+		BC202E182A6D1FDE00DD2D4A /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E152A6D1FDE00DD2D4A /* ViewModelContainer.swift */; };
+		BC202E192A6D1FDE00DD2D4A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E162A6D1FDE00DD2D4A /* Coordinator.swift */; };
+		BC202E212A6D1FE400DD2D4A /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E1B2A6D1FE400DD2D4A /* Date+Format.swift */; };
+		BC202E222A6D1FE400DD2D4A /* UIView+360Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E1C2A6D1FE400DD2D4A /* UIView+360Rotation.swift */; };
+		BC202E232A6D1FE400DD2D4A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E1D2A6D1FE400DD2D4A /* Log.swift */; };
+		BC202E242A6D1FE400DD2D4A /* SystemMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E1E2A6D1FE400DD2D4A /* SystemMessage.swift */; };
+		BC202E252A6D1FE400DD2D4A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E1F2A6D1FE400DD2D4A /* HTTPMethod.swift */; };
+		BC202E262A6D1FE400DD2D4A /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E202A6D1FE400DD2D4A /* Const.swift */; };
+		BC202E2D2A6D1FF100DD2D4A /* ScratchCardGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E282A6D1FF100DD2D4A /* ScratchCardGeneratorService.swift */; };
+		BC202E2E2A6D1FF100DD2D4A /* AzowoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E2A2A6D1FF100DD2D4A /* AzowoAPI.swift */; };
+		BC202E2F2A6D1FF100DD2D4A /* ActivationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E2B2A6D1FF100DD2D4A /* ActivationService.swift */; };
+		BC202E302A6D1FF100DD2D4A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E2C2A6D1FF100DD2D4A /* NetworkService.swift */; };
+		BC202E6A2A6D201000DD2D4A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC202E322A6D200F00DD2D4A /* Colors.xcassets */; };
+		BC202E6B2A6D201000DD2D4A /* UIFont+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E332A6D200F00DD2D4A /* UIFont+Fonts.swift */; };
+		BC202E6C2A6D201000DD2D4A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E342A6D200F00DD2D4A /* Animation.swift */; };
+		BC202E6D2A6D201000DD2D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC202E352A6D200F00DD2D4A /* Assets.xcassets */; };
+		BC202E6E2A6D201000DD2D4A /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E362A6D200F00DD2D4A /* UIColor+Colors.swift */; };
+		BC202E6F2A6D201000DD2D4A /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E372A6D200F00DD2D4A /* Design.swift */; };
+		BC202E702A6D201000DD2D4A /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E392A6D200F00DD2D4A /* ScratchCard.swift */; };
+		BC202E712A6D201000DD2D4A /* ActivationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E3A2A6D200F00DD2D4A /* ActivationResponse.swift */; };
+		BC202E722A6D201000DD2D4A /* ScratchCardsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E3D2A6D200F00DD2D4A /* ScratchCardsCoordinator.swift */; };
+		BC202E732A6D201000DD2D4A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E3E2A6D200F00DD2D4A /* AppCoordinator.swift */; };
+		BC202E742A6D201000DD2D4A /* ActivateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E412A6D200F00DD2D4A /* ActivateViewModel.swift */; };
+		BC202E752A6D201000DD2D4A /* Activation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC202E432A6D200F00DD2D4A /* Activation.storyboard */; };
+		BC202E762A6D201000DD2D4A /* ActivationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E442A6D200F00DD2D4A /* ActivationController.swift */; };
+		BC202E772A6D201000DD2D4A /* RevelationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E472A6D200F00DD2D4A /* RevelationViewModel.swift */; };
+		BC202E782A6D201000DD2D4A /* Revelation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC202E492A6D200F00DD2D4A /* Revelation.storyboard */; };
+		BC202E792A6D201000DD2D4A /* RevelationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E4A2A6D200F00DD2D4A /* RevelationController.swift */; };
+		BC202E7A2A6D201000DD2D4A /* ScratchCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E4D2A6D200F00DD2D4A /* ScratchCardsViewModel.swift */; };
+		BC202E7B2A6D201000DD2D4A /* ScratchCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E502A6D200F00DD2D4A /* ScratchCardViewModel.swift */; };
+		BC202E7C2A6D201000DD2D4A /* ScratchCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E522A6D200F00DD2D4A /* ScratchCardCell.xib */; };
+		BC202E7D2A6D201000DD2D4A /* ScratchCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E532A6D200F00DD2D4A /* ScratchCardCell.swift */; };
+		BC202E7F2A6D201000DD2D4A /* ScratchCardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E572A6D200F00DD2D4A /* ScratchCardsController.swift */; };
+		BC202E802A6D201000DD2D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC202E582A6D200F00DD2D4A /* Main.storyboard */; };
+		BC202E812A6D201000DD2D4A /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E5C2A6D200F00DD2D4A /* StandardButtonView.swift */; };
+		BC202E822A6D201000DD2D4A /* StandardButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E5D2A6D200F00DD2D4A /* StandardButtonView.xib */; };
+		BC202E832A6D201000DD2D4A /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E5F2A6D200F00DD2D4A /* SeparatorView.swift */; };
+		BC202E842A6D201000DD2D4A /* SeparatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E602A6D200F00DD2D4A /* SeparatorView.xib */; };
+		BC202E852A6D201000DD2D4A /* SystemToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E622A6D200F00DD2D4A /* SystemToastView.swift */; };
+		BC202E862A6D201000DD2D4A /* SystemToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E632A6D200F00DD2D4A /* SystemToastView.xib */; };
+		BC202E872A6D201000DD2D4A /* ScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E652A6D200F00DD2D4A /* ScratchCardView.swift */; };
+		BC202E882A6D201000DD2D4A /* ScratchCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E662A6D200F00DD2D4A /* ScratchCardView.xib */; };
+		BC202E892A6D201000DD2D4A /* ScratchCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E682A6D200F00DD2D4A /* ScratchCodeView.swift */; };
+		BC202E8A2A6D201000DD2D4A /* ScratchCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC202E692A6D200F00DD2D4A /* ScratchCodeView.xib */; };
+		BC202E922A6D202700DD2D4A /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC202E8C2A6D202600DD2D4A /* Kanit-Regular.ttf */; };
+		BC202E932A6D202700DD2D4A /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC202E8D2A6D202600DD2D4A /* Kanit-Bold.ttf */; };
+		BC202E942A6D202700DD2D4A /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC202E8E2A6D202600DD2D4A /* Kanit-Medium.ttf */; };
+		BC202E952A6D202700DD2D4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC202E902A6D202700DD2D4A /* Localizable.strings */; };
+		BC202E9B2A6D249500DD2D4A /* ScratchCardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E962A6D249500DD2D4A /* ScratchCardViewModelTests.swift */; };
+		BC202E9C2A6D249500DD2D4A /* ScratchCardsCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E972A6D249500DD2D4A /* ScratchCardsCoordinatorTests.swift */; };
+		BC202E9D2A6D249500DD2D4A /* ActivationServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E982A6D249500DD2D4A /* ActivationServiceMock.swift */; };
+		BC202E9E2A6D249500DD2D4A /* ActivationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E992A6D249500DD2D4A /* ActivationViewModelTests.swift */; };
+		BC202E9F2A6D249500DD2D4A /* RevelationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC202E9A2A6D249500DD2D4A /* RevelationViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +89,66 @@
 		BC202DE02A6D1F9700DD2D4A /* AzowoScratchCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzowoScratchCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC202DE32A6D1F9700DD2D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC202DE52A6D1F9700DD2D4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC202DE72A6D1F9700DD2D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC202DEA2A6D1F9700DD2D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC202DEC2A6D1F9800DD2D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC202DEF2A6D1F9800DD2D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC202DF12A6D1F9800DD2D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC202DF62A6D1F9800DD2D4A /* AzowoScratchCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC202DFA2A6D1F9800DD2D4A /* AzowoScratchCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsTests.swift; sourceTree = "<group>"; };
 		BC202E002A6D1F9800DD2D4A /* AzowoScratchCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC202E042A6D1F9800DD2D4A /* AzowoScratchCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUITests.swift; sourceTree = "<group>"; };
 		BC202E062A6D1F9800DD2D4A /* AzowoScratchCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC202E142A6D1FDE00DD2D4A /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		BC202E152A6D1FDE00DD2D4A /* ViewModelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelContainer.swift; sourceTree = "<group>"; };
+		BC202E162A6D1FDE00DD2D4A /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BC202E1B2A6D1FE400DD2D4A /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		BC202E1C2A6D1FE400DD2D4A /* UIView+360Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+360Rotation.swift"; sourceTree = "<group>"; };
+		BC202E1D2A6D1FE400DD2D4A /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		BC202E1E2A6D1FE400DD2D4A /* SystemMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMessage.swift; sourceTree = "<group>"; };
+		BC202E1F2A6D1FE400DD2D4A /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		BC202E202A6D1FE400DD2D4A /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		BC202E282A6D1FF100DD2D4A /* ScratchCardGeneratorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardGeneratorService.swift; sourceTree = "<group>"; };
+		BC202E2A2A6D1FF100DD2D4A /* AzowoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzowoAPI.swift; sourceTree = "<group>"; };
+		BC202E2B2A6D1FF100DD2D4A /* ActivationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationService.swift; sourceTree = "<group>"; };
+		BC202E2C2A6D1FF100DD2D4A /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BC202E322A6D200F00DD2D4A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BC202E332A6D200F00DD2D4A /* UIFont+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Fonts.swift"; sourceTree = "<group>"; };
+		BC202E342A6D200F00DD2D4A /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		BC202E352A6D200F00DD2D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC202E362A6D200F00DD2D4A /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		BC202E372A6D200F00DD2D4A /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		BC202E392A6D200F00DD2D4A /* ScratchCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
+		BC202E3A2A6D200F00DD2D4A /* ActivationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationResponse.swift; sourceTree = "<group>"; };
+		BC202E3D2A6D200F00DD2D4A /* ScratchCardsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsCoordinator.swift; sourceTree = "<group>"; };
+		BC202E3E2A6D200F00DD2D4A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BC202E412A6D200F00DD2D4A /* ActivateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateViewModel.swift; sourceTree = "<group>"; };
+		BC202E432A6D200F00DD2D4A /* Activation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activation.storyboard; sourceTree = "<group>"; };
+		BC202E442A6D200F00DD2D4A /* ActivationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationController.swift; sourceTree = "<group>"; };
+		BC202E472A6D200F00DD2D4A /* RevelationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationViewModel.swift; sourceTree = "<group>"; };
+		BC202E492A6D200F00DD2D4A /* Revelation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Revelation.storyboard; sourceTree = "<group>"; };
+		BC202E4A2A6D200F00DD2D4A /* RevelationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationController.swift; sourceTree = "<group>"; };
+		BC202E4D2A6D200F00DD2D4A /* ScratchCardsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsViewModel.swift; sourceTree = "<group>"; };
+		BC202E502A6D200F00DD2D4A /* ScratchCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardViewModel.swift; sourceTree = "<group>"; };
+		BC202E522A6D200F00DD2D4A /* ScratchCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScratchCardCell.xib; sourceTree = "<group>"; };
+		BC202E532A6D200F00DD2D4A /* ScratchCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardCell.swift; sourceTree = "<group>"; };
+		BC202E572A6D200F00DD2D4A /* ScratchCardsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsController.swift; sourceTree = "<group>"; };
+		BC202E592A6D200F00DD2D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC202E5C2A6D200F00DD2D4A /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
+		BC202E5D2A6D200F00DD2D4A /* StandardButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StandardButtonView.xib; sourceTree = "<group>"; };
+		BC202E5F2A6D200F00DD2D4A /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		BC202E602A6D200F00DD2D4A /* SeparatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorView.xib; sourceTree = "<group>"; };
+		BC202E622A6D200F00DD2D4A /* SystemToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemToastView.swift; sourceTree = "<group>"; };
+		BC202E632A6D200F00DD2D4A /* SystemToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemToastView.xib; sourceTree = "<group>"; };
+		BC202E652A6D200F00DD2D4A /* ScratchCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardView.swift; sourceTree = "<group>"; };
+		BC202E662A6D200F00DD2D4A /* ScratchCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScratchCardView.xib; sourceTree = "<group>"; };
+		BC202E682A6D200F00DD2D4A /* ScratchCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCodeView.swift; sourceTree = "<group>"; };
+		BC202E692A6D200F00DD2D4A /* ScratchCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScratchCodeView.xib; sourceTree = "<group>"; };
+		BC202E8C2A6D202600DD2D4A /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		BC202E8D2A6D202600DD2D4A /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		BC202E8E2A6D202600DD2D4A /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		BC202E912A6D202700DD2D4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC202E962A6D249500DD2D4A /* ScratchCardViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardViewModelTests.swift; sourceTree = "<group>"; };
+		BC202E972A6D249500DD2D4A /* ScratchCardsCoordinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsCoordinatorTests.swift; sourceTree = "<group>"; };
+		BC202E982A6D249500DD2D4A /* ActivationServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationServiceMock.swift; sourceTree = "<group>"; };
+		BC202E992A6D249500DD2D4A /* ActivationViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationViewModelTests.swift; sourceTree = "<group>"; };
+		BC202E9A2A6D249500DD2D4A /* RevelationViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +199,19 @@
 		BC202DE22A6D1F9700DD2D4A /* AzowoScratchCards */ = {
 			isa = PBXGroup;
 			children = (
+				BC202E132A6D1FDE00DD2D4A /* Base */,
+				BC202E1A2A6D1FE400DD2D4A /* Utilities */,
+				BC202E272A6D1FF100DD2D4A /* Services */,
+				BC202E382A6D200F00DD2D4A /* Models */,
+				BC202E3B2A6D200F00DD2D4A /* Modules */,
+				BC202E5A2A6D200F00DD2D4A /* Components */,
+				BC202E312A6D200F00DD2D4A /* Design */,
 				BC202DE32A6D1F9700DD2D4A /* AppDelegate.swift */,
 				BC202DE52A6D1F9700DD2D4A /* SceneDelegate.swift */,
-				BC202DE72A6D1F9700DD2D4A /* ViewController.swift */,
-				BC202DE92A6D1F9700DD2D4A /* Main.storyboard */,
-				BC202DEC2A6D1F9800DD2D4A /* Assets.xcassets */,
 				BC202DEE2A6D1F9800DD2D4A /* LaunchScreen.storyboard */,
 				BC202DF12A6D1F9800DD2D4A /* Info.plist */,
+				BC202E8B2A6D202600DD2D4A /* Fonts */,
+				BC202E8F2A6D202700DD2D4A /* Localization */,
 			);
 			path = AzowoScratchCards;
 			sourceTree = "<group>";
@@ -113,7 +219,11 @@
 		BC202DF92A6D1F9800DD2D4A /* AzowoScratchCardsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BC202DFA2A6D1F9800DD2D4A /* AzowoScratchCardsTests.swift */,
+				BC202E982A6D249500DD2D4A /* ActivationServiceMock.swift */,
+				BC202E992A6D249500DD2D4A /* ActivationViewModelTests.swift */,
+				BC202E9A2A6D249500DD2D4A /* RevelationViewModelTests.swift */,
+				BC202E972A6D249500DD2D4A /* ScratchCardsCoordinatorTests.swift */,
+				BC202E962A6D249500DD2D4A /* ScratchCardViewModelTests.swift */,
 			);
 			path = AzowoScratchCardsTests;
 			sourceTree = "<group>";
@@ -125,6 +235,270 @@
 				BC202E062A6D1F9800DD2D4A /* AzowoScratchCardsUITestsLaunchTests.swift */,
 			);
 			path = AzowoScratchCardsUITests;
+			sourceTree = "<group>";
+		};
+		BC202E132A6D1FDE00DD2D4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E152A6D1FDE00DD2D4A /* ViewModelContainer.swift */,
+				BC202E142A6D1FDE00DD2D4A /* ViewModelType.swift */,
+				BC202E162A6D1FDE00DD2D4A /* Coordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BC202E1A2A6D1FE400DD2D4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E1D2A6D1FE400DD2D4A /* Log.swift */,
+				BC202E202A6D1FE400DD2D4A /* Const.swift */,
+				BC202E1C2A6D1FE400DD2D4A /* UIView+360Rotation.swift */,
+				BC202E1B2A6D1FE400DD2D4A /* Date+Format.swift */,
+				BC202E1F2A6D1FE400DD2D4A /* HTTPMethod.swift */,
+				BC202E1E2A6D1FE400DD2D4A /* SystemMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BC202E272A6D1FF100DD2D4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E2C2A6D1FF100DD2D4A /* NetworkService.swift */,
+				BC202E282A6D1FF100DD2D4A /* ScratchCardGeneratorService.swift */,
+				BC202E292A6D1FF100DD2D4A /* AzowoAPI */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC202E292A6D1FF100DD2D4A /* AzowoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E2A2A6D1FF100DD2D4A /* AzowoAPI.swift */,
+				BC202E2B2A6D1FF100DD2D4A /* ActivationService.swift */,
+			);
+			path = AzowoAPI;
+			sourceTree = "<group>";
+		};
+		BC202E312A6D200F00DD2D4A /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E372A6D200F00DD2D4A /* Design.swift */,
+				BC202E362A6D200F00DD2D4A /* UIColor+Colors.swift */,
+				BC202E332A6D200F00DD2D4A /* UIFont+Fonts.swift */,
+				BC202E342A6D200F00DD2D4A /* Animation.swift */,
+				BC202E322A6D200F00DD2D4A /* Colors.xcassets */,
+				BC202E352A6D200F00DD2D4A /* Assets.xcassets */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BC202E382A6D200F00DD2D4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E392A6D200F00DD2D4A /* ScratchCard.swift */,
+				BC202E3A2A6D200F00DD2D4A /* ActivationResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC202E3B2A6D200F00DD2D4A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E3C2A6D200F00DD2D4A /* Coordinators */,
+				BC202E4B2A6D200F00DD2D4A /* Scratch Cards */,
+				BC202E452A6D200F00DD2D4A /* Revelation */,
+				BC202E3F2A6D200F00DD2D4A /* Activation */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BC202E3C2A6D200F00DD2D4A /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E3D2A6D200F00DD2D4A /* ScratchCardsCoordinator.swift */,
+				BC202E3E2A6D200F00DD2D4A /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BC202E3F2A6D200F00DD2D4A /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E402A6D200F00DD2D4A /* ViewModel */,
+				BC202E422A6D200F00DD2D4A /* View */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
+		BC202E402A6D200F00DD2D4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E412A6D200F00DD2D4A /* ActivateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC202E422A6D200F00DD2D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E432A6D200F00DD2D4A /* Activation.storyboard */,
+				BC202E442A6D200F00DD2D4A /* ActivationController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC202E452A6D200F00DD2D4A /* Revelation */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E462A6D200F00DD2D4A /* ViewModel */,
+				BC202E482A6D200F00DD2D4A /* View */,
+			);
+			path = Revelation;
+			sourceTree = "<group>";
+		};
+		BC202E462A6D200F00DD2D4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E472A6D200F00DD2D4A /* RevelationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC202E482A6D200F00DD2D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E492A6D200F00DD2D4A /* Revelation.storyboard */,
+				BC202E4A2A6D200F00DD2D4A /* RevelationController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC202E4B2A6D200F00DD2D4A /* Scratch Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E4E2A6D200F00DD2D4A /* Scratch Card */,
+				BC202E4C2A6D200F00DD2D4A /* ViewModel */,
+				BC202E542A6D200F00DD2D4A /* View */,
+			);
+			path = "Scratch Cards";
+			sourceTree = "<group>";
+		};
+		BC202E4C2A6D200F00DD2D4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E4D2A6D200F00DD2D4A /* ScratchCardsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC202E4E2A6D200F00DD2D4A /* Scratch Card */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E4F2A6D200F00DD2D4A /* ViewModel */,
+				BC202E512A6D200F00DD2D4A /* View */,
+			);
+			path = "Scratch Card";
+			sourceTree = "<group>";
+		};
+		BC202E4F2A6D200F00DD2D4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E502A6D200F00DD2D4A /* ScratchCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC202E512A6D200F00DD2D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E522A6D200F00DD2D4A /* ScratchCardCell.xib */,
+				BC202E532A6D200F00DD2D4A /* ScratchCardCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC202E542A6D200F00DD2D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E572A6D200F00DD2D4A /* ScratchCardsController.swift */,
+				BC202E582A6D200F00DD2D4A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC202E5A2A6D200F00DD2D4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E5B2A6D200F00DD2D4A /* Standard Button */,
+				BC202E5E2A6D200F00DD2D4A /* Separator */,
+				BC202E612A6D200F00DD2D4A /* Toast */,
+				BC202E642A6D200F00DD2D4A /* Scratch Card */,
+				BC202E672A6D200F00DD2D4A /* Scratch Code */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC202E5B2A6D200F00DD2D4A /* Standard Button */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E5C2A6D200F00DD2D4A /* StandardButtonView.swift */,
+				BC202E5D2A6D200F00DD2D4A /* StandardButtonView.xib */,
+			);
+			path = "Standard Button";
+			sourceTree = "<group>";
+		};
+		BC202E5E2A6D200F00DD2D4A /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E5F2A6D200F00DD2D4A /* SeparatorView.swift */,
+				BC202E602A6D200F00DD2D4A /* SeparatorView.xib */,
+			);
+			path = Separator;
+			sourceTree = "<group>";
+		};
+		BC202E612A6D200F00DD2D4A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E622A6D200F00DD2D4A /* SystemToastView.swift */,
+				BC202E632A6D200F00DD2D4A /* SystemToastView.xib */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		BC202E642A6D200F00DD2D4A /* Scratch Card */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E652A6D200F00DD2D4A /* ScratchCardView.swift */,
+				BC202E662A6D200F00DD2D4A /* ScratchCardView.xib */,
+			);
+			path = "Scratch Card";
+			sourceTree = "<group>";
+		};
+		BC202E672A6D200F00DD2D4A /* Scratch Code */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E682A6D200F00DD2D4A /* ScratchCodeView.swift */,
+				BC202E692A6D200F00DD2D4A /* ScratchCodeView.xib */,
+			);
+			path = "Scratch Code";
+			sourceTree = "<group>";
+		};
+		BC202E8B2A6D202600DD2D4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E8C2A6D202600DD2D4A /* Kanit-Regular.ttf */,
+				BC202E8D2A6D202600DD2D4A /* Kanit-Bold.ttf */,
+				BC202E8E2A6D202600DD2D4A /* Kanit-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BC202E8F2A6D202700DD2D4A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BC202E902A6D202700DD2D4A /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +605,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC202E882A6D201000DD2D4A /* ScratchCardView.xib in Resources */,
+				BC202E802A6D201000DD2D4A /* Main.storyboard in Resources */,
+				BC202E842A6D201000DD2D4A /* SeparatorView.xib in Resources */,
 				BC202DF02A6D1F9800DD2D4A /* LaunchScreen.storyboard in Resources */,
-				BC202DED2A6D1F9800DD2D4A /* Assets.xcassets in Resources */,
-				BC202DEB2A6D1F9700DD2D4A /* Main.storyboard in Resources */,
+				BC202E922A6D202700DD2D4A /* Kanit-Regular.ttf in Resources */,
+				BC202E6A2A6D201000DD2D4A /* Colors.xcassets in Resources */,
+				BC202E942A6D202700DD2D4A /* Kanit-Medium.ttf in Resources */,
+				BC202E782A6D201000DD2D4A /* Revelation.storyboard in Resources */,
+				BC202E8A2A6D201000DD2D4A /* ScratchCodeView.xib in Resources */,
+				BC202E752A6D201000DD2D4A /* Activation.storyboard in Resources */,
+				BC202E7C2A6D201000DD2D4A /* ScratchCardCell.xib in Resources */,
+				BC202E952A6D202700DD2D4A /* Localizable.strings in Resources */,
+				BC202E822A6D201000DD2D4A /* StandardButtonView.xib in Resources */,
+				BC202E862A6D201000DD2D4A /* SystemToastView.xib in Resources */,
+				BC202E6D2A6D201000DD2D4A /* Assets.xcassets in Resources */,
+				BC202E932A6D202700DD2D4A /* Kanit-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +645,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC202DE82A6D1F9700DD2D4A /* ViewController.swift in Sources */,
+				BC202E7D2A6D201000DD2D4A /* ScratchCardCell.swift in Sources */,
+				BC202E222A6D1FE400DD2D4A /* UIView+360Rotation.swift in Sources */,
+				BC202E2E2A6D1FF100DD2D4A /* AzowoAPI.swift in Sources */,
+				BC202E792A6D201000DD2D4A /* RevelationController.swift in Sources */,
+				BC202E832A6D201000DD2D4A /* SeparatorView.swift in Sources */,
+				BC202E172A6D1FDE00DD2D4A /* ViewModelType.swift in Sources */,
+				BC202E772A6D201000DD2D4A /* RevelationViewModel.swift in Sources */,
+				BC202E762A6D201000DD2D4A /* ActivationController.swift in Sources */,
+				BC202E702A6D201000DD2D4A /* ScratchCard.swift in Sources */,
+				BC202E742A6D201000DD2D4A /* ActivateViewModel.swift in Sources */,
+				BC202E232A6D1FE400DD2D4A /* Log.swift in Sources */,
+				BC202E252A6D1FE400DD2D4A /* HTTPMethod.swift in Sources */,
+				BC202E722A6D201000DD2D4A /* ScratchCardsCoordinator.swift in Sources */,
+				BC202E262A6D1FE400DD2D4A /* Const.swift in Sources */,
+				BC202E712A6D201000DD2D4A /* ActivationResponse.swift in Sources */,
+				BC202E7A2A6D201000DD2D4A /* ScratchCardsViewModel.swift in Sources */,
+				BC202E812A6D201000DD2D4A /* StandardButtonView.swift in Sources */,
+				BC202E7F2A6D201000DD2D4A /* ScratchCardsController.swift in Sources */,
+				BC202E6B2A6D201000DD2D4A /* UIFont+Fonts.swift in Sources */,
+				BC202E852A6D201000DD2D4A /* SystemToastView.swift in Sources */,
+				BC202E242A6D1FE400DD2D4A /* SystemMessage.swift in Sources */,
+				BC202E892A6D201000DD2D4A /* ScratchCodeView.swift in Sources */,
+				BC202E7B2A6D201000DD2D4A /* ScratchCardViewModel.swift in Sources */,
+				BC202E732A6D201000DD2D4A /* AppCoordinator.swift in Sources */,
+				BC202E6F2A6D201000DD2D4A /* Design.swift in Sources */,
+				BC202E2F2A6D1FF100DD2D4A /* ActivationService.swift in Sources */,
+				BC202E6E2A6D201000DD2D4A /* UIColor+Colors.swift in Sources */,
+				BC202E2D2A6D1FF100DD2D4A /* ScratchCardGeneratorService.swift in Sources */,
+				BC202E302A6D1FF100DD2D4A /* NetworkService.swift in Sources */,
+				BC202E212A6D1FE400DD2D4A /* Date+Format.swift in Sources */,
+				BC202E192A6D1FDE00DD2D4A /* Coordinator.swift in Sources */,
 				BC202DE42A6D1F9700DD2D4A /* AppDelegate.swift in Sources */,
 				BC202DE62A6D1F9700DD2D4A /* SceneDelegate.swift in Sources */,
+				BC202E872A6D201000DD2D4A /* ScratchCardView.swift in Sources */,
+				BC202E6C2A6D201000DD2D4A /* Animation.swift in Sources */,
+				BC202E182A6D1FDE00DD2D4A /* ViewModelContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +688,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC202DFB2A6D1F9800DD2D4A /* AzowoScratchCardsTests.swift in Sources */,
+				BC202E9E2A6D249500DD2D4A /* ActivationViewModelTests.swift in Sources */,
+				BC202E9B2A6D249500DD2D4A /* ScratchCardViewModelTests.swift in Sources */,
+				BC202E9F2A6D249500DD2D4A /* RevelationViewModelTests.swift in Sources */,
+				BC202E9C2A6D249500DD2D4A /* ScratchCardsCoordinatorTests.swift in Sources */,
+				BC202E9D2A6D249500DD2D4A /* ActivationServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +721,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC202DE92A6D1F9700DD2D4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC202DEA2A6D1F9700DD2D4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC202DEE2A6D1F9800DD2D4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BC202DEF2A6D1F9800DD2D4A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC202E582A6D200F00DD2D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC202E592A6D200F00DD2D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC202E902A6D202700DD2D4A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC202E912A6D202700DD2D4A /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +852,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,21 +868,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AzowoScratchCards/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azowo Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCards;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balaz.azowo-scratch-cards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,21 +899,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AzowoScratchCards/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azowo Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCards;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balaz.azowo-scratch-cards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -495,7 +933,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +953,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
